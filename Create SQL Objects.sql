@@ -1,3 +1,11 @@
+select * from Groups
+go
+
+create view vwGroups 
+as select * from Groups
+
+select * from vwGroups 
+
 --Create Syntax
 create procedure sp_groups 
 as
